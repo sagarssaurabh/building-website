@@ -18,6 +18,7 @@ app = Flask(__name__)
 # then we need a decorater route,where we will view our website
 @app.route('/')
 
+
 # the output this function produces will be mapped to the url given in route function given above
 
 # all the html pages we are using here should be present in a folder name- templets
